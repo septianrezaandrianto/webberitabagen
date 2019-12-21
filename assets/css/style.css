@@ -1,0 +1,245 @@
+body{
+	margin:0;
+	background-image: url(../../assets/images/background.jpg);
+}
+.container{
+	width:1000px;
+	margin:0 auto;
+}
+header {
+	height: 60px;
+	background-color: brown;
+	padding: 5px 20px;
+}
+header img{
+	width: 130px;
+	float: left;
+}
+header ul.menu{
+	list-style: none;
+	margin-left: 175px;
+	display: block;
+}
+header ul li {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+header ul.menu li a{
+	padding: 0px 20px;
+	text-decoration: none;
+	font-family: tekton pro;
+	font-weight: 800;
+	color: white;
+	text-transform: uppercase;
+}
+header ul.menu li{
+	font-family: tekton pro;
+	font-weight: 800;
+	color: white;
+	text-transform: uppercase;
+}
+header ul.menu li a:hover {
+	background-color: green;
+	display: block;
+}
+header ul.menu li:hover {
+	background-color: green;
+	display: block;
+}
+header ul.submenu {
+	display:none;
+	margin: 2px -150px;
+}
+header ul.menu li:hover ul.submenu {
+	display: block;
+	position: absolute;
+}
+header ul.submenu li {
+	display: block;
+}
+.clear{
+	clear:both;
+}
+.grid{
+	width:200px;
+	padding:10px;
+	border: 1px solid #b1aeae;
+	border-radius:5px;
+	float:left;
+	margin:5px;
+}
+.content{
+	padding: 20px;
+	background-color: white;
+    height: 1800px;
+}
+.cover-grid-news{
+	height: 150px;
+	width: 100%;
+}
+.judul{
+	text-align:center;
+}
+.judul h5 a{
+	text-decoration: none;
+	color: #000;
+	text-align:center;
+	font-size: 20px;
+	font-family: arial;
+}
+.attr a{
+	color:  #DC143C;
+}
+.tombol-lihat{
+	text-align:center;
+}
+.tombol-lihat a{
+	width: 50%;
+    background-color: #DC143C;
+    padding: 4px 70px;
+    border-radius: 5px;
+	color : white;
+    text-decoration: none;
+    font-weight: 550;
+}
+.tombol-lihat a:hover {
+	background-color: #E9967A;
+}
+.image, .col-9, .col-3{
+	float:left;
+}
+.col-9{
+	width:75%;
+}
+.col-3{
+	width:22%;
+	background-color: white;
+}
+.sidebar {
+    border: 1px solid;
+    padding: 0px 0px 25px 5px;
+    border-radius: 5px;
+	margin: 5px 0px;
+}
+.image {
+	padding:5px;
+}
+.image img{
+	width:100px;
+}
+.atribute a{
+	text-decoration:none;
+}
+.btn {
+	text-decoration: none;
+	background-color: #87CEEB;
+	color: white;
+	padding: 5px 20px;
+}
+.btn:hover{
+	background-color: #E9967A;
+}
+.cari {
+    margin-left: 670px;
+    margin-top: 7px;
+}
+.cari input[type=text]{
+	padding: 3px;
+}
+.cari button{
+	padding: 4px;
+}
+.bt{
+	padding: 5px;
+    background-color: red;
+    text-align: center;
+}
+.line-footer{
+	background-color: #7e040c;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+.line-footer a{
+	color: white;
+}
+.line-footer a:hover{
+	background-color: red;
+}
+.bottom-footer{
+	background-color: red;
+	text-align: center;
+	color: black;
+    font-size: 16px;
+	text-decoration: none;
+}
+.komter{
+	border: 1px solid;
+    padding: 0px 0px 25px 5px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    background-color: #ADD8E6;
+}
+.iskom{
+	border: 1px solid;
+    padding: 0px 0px 25px 5px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    background-color: white;
+}
+.nakom{
+	display: block;
+    width: 50%;
+    height: 34px;
+    padding: 2px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.komis{
+	display: block;
+    width:95%;
+    height: 5%;
+    padding: 15px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.btn{
+
+	background-color: #DC143C;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.iklan {
+	width:22%;
+	margin: 20px 350px;	
+}
+.sidebar2 {
+    padding: 0px 0px 25px 5px;
+    border-radius: 5px;
+	margin: 50px 0px;
+}
+.image2 {
+	padding:5px;
+}
+.image2 img{
+	width:190px;
+}
+.ikompor{
+}
+.bottom{
+	margin:448px;
+}

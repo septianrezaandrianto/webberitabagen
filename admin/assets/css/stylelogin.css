@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+}
+img {
+	position: absolute;
+    margin: 40px -53px;
+}
+.login-page a{
+	color: red;
+	margin: 15px 20px;
+	position: fixed;
+}
+.login-page a:hover{
+	color: white;
+}
+.login-page form{
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 200px;
+	border: 1px solid #f50707;
+	padding: 10px 20px 17px 8px;
+	border-radius: 5px;
+	background: rgba(0,0,0,0.5);
+	color: white;
+}
+.login-page form input[type=text], .login-page form input[type=password]{
+	padding: 5px;
+	margin: 3px 85px;
+	width: 75%;
+}
+.login-page form input[type=submit]{
+	padding: 5px;
+	margin: 10px 85px;
+	width: 75%;
+}
+.login-page form input[type=submit]{
+background-color: #DC143C;
+color: white;
+border-radius: 5px;
+cursor:pointer;
+}
